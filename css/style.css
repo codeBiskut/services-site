@@ -5,9 +5,8 @@ body {
 }
 
 header {
-    background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 20 0 0 0;
 }
 
 nav ul {
@@ -30,6 +29,12 @@ section {
     min-height: 100vh;
 }
 
+
+h2 {
+    color: #fff; /* Text color */
+    font-size: 24px;
+}
+
 .background-section{
     background-image: url('../images/main-background.jpg');
     background-size: cover;
@@ -50,7 +55,6 @@ section {
     align-items: center;
 }
 
-h2 {
-    color: #fff; /* Text color */
-    font-size: 24px;
+.navbar{
+    padding: 20px;
 }
