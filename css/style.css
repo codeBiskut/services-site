@@ -25,36 +25,38 @@ nav ul li a {
 }
 
 section {
-    padding: 20px;
+    padding: 12rem 1rem !important;
     min-height: 100vh;
+    background-color: #222;
 }
 
 
 h2 {
-    color: #fff; /* Text color */
-    font-size: 24px;
+    color: #6e90e8; /* Text color */
+    font-size: 2em!important;
 }
 
-.background-section{
-    background-image: url('../images/main-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+h1 {
+    color: white;
+    font-size: 6em!important;
 }
 
-.overlay {
-    position: absolute; /* Set the position to absolute for precise positioning within the relative parent */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background color */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+p {
+    color: #fff;
 }
 
 .navbar{
-    padding: 20px;
+    padding: 20px!important;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 5rem;
+}
+
+.blue-text {
+    color: #6e90e8;
 }
