@@ -1,11 +1,7 @@
-$(document).ready(function() {
-    var path = window.location.pathname;
-    var page = path.split("/").pop();
+const menu = document.querySelector('#mobile-menu')
+const menuLinks = document.querySelector('.navbar_menu')
 
-    $('ul.navbar-nav li.nav-item').each(function() {
-        var link = $(this).find('a').attr('href');
-        if (link === page) {
-            $(this).addClass('active');
-        }
-    });
-});
+menu.addEventListener('click', function(){
+    menu.classList.toggle('is-active')
+    menuLinks.classList.toggle('active')
+})
