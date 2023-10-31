@@ -516,6 +516,27 @@
         url('/images/productiv.png');
 }
 
+.portfolio_card:nth-child(4) {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(17, 17, 17, 0.9) 100%),
+        url('/images/localpet.png');
+}
+
+.portfolio_card:nth-child(5) {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(17, 17, 17, 0.9) 100%),
+        url('/images/codersalmanac.png');
+}
+
+.portfolio_card:nth-child(6) {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(17, 17, 17, 0.9) 100%),
+        url('/images/socialnetworkapi.png');
+}
+
 .portfolio_card h2 {
     position: absolute;
     top: 350px;
