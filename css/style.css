@@ -579,7 +579,7 @@
 
 @media screen and (max-width: 960px) {
     .portfolio {
-        height: 1600px;
+        height: 3600px;
     }
 
     .portfolio h1 {
@@ -590,15 +590,31 @@
 
 @media screen and (max-width: 480px) {
     .portfolio {
-        height: 1400px;
+        height: 3000px;
     }
 
     .portfolio h1 {
         font-size: 1.2rem;
+        margin-top: 3rem;
     }
 
     .portfolio_card {
         width: 300px;
+        height: 450px;
+    }
+
+    .portfolio_card h2 {
+        position: absolute;
+        top: 300px;
+    }
+
+    .portfolio_card p {
+        position: absolute;
+        top: 340px;
+    }
+
+    .portfolio_card button {
+        top: 390px;
     }
 }
 
